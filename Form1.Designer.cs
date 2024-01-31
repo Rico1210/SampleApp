@@ -36,6 +36,7 @@
             button5 = new Button();
             button6 = new Button();
             button7 = new Button();
+            button8 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -110,11 +111,21 @@
             button7.Text = "Update Git5";
             button7.UseVisualStyleBackColor = true;
             // 
+            // button8
+            // 
+            button8.Location = new Point(359, 373);
+            button8.Name = "button8";
+            button8.Size = new Size(154, 102);
+            button8.TabIndex = 8;
+            button8.Text = "Update DekstopGit";
+            button8.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 526);
+            Controls.Add(button8);
             Controls.Add(button7);
             Controls.Add(button6);
             Controls.Add(button5);
@@ -139,5 +150,6 @@
         private Button button5;
         private Button button6;
         private Button button7;
+        private Button button8;
     }
 }
